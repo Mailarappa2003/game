@@ -1,0 +1,78 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.chioce {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+      display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.chioce:hover {
+
+ 
+    cursor: pointer;
+   background-color: #081b31;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.chioces {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.scores-board{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-size: 30px;
+}
+#user-score,#compter-score{
+    font-size: 50px;
+}
+#msg{
+background-color: #081b31;
+color: white;
+
+
+font-size: 20px;
+
+display: inline;
+padding: 10px;
+border-radius: 5px;
+}
+.msg-cantainer{
+    height: 100px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
